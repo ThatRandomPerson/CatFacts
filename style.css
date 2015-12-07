@@ -1,0 +1,21 @@
+*
+{
+	font-family: 'Indie Flower', cursive;
+	text-align:center;
+}
+img {
+    width: 40%;
+    height: auto;
+}
+footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.footer {
+    margin: auto;
+    width: 100%;
+    text-align:center;
+    padding:10px;
+}

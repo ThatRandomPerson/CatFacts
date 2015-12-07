@@ -1,0 +1,66 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>
+			Cat Facts!
+		</title>
+	</head>
+        <script>
+				function getRandomNumber(min, max)
+				{
+				    return Math.floor(Math.random() * (max - min + 1)) + min;
+				}
+
+				function getFact()
+				{
+					var catnum = getRandomNumber(1,8);
+					if  (catnum === 1){
+				    		document.getElementById("catFact").innerHTML = "Felix the Cat is the first cartoon character to ever have been made into a ballon for a parade.";
+				}
+					else if (catnum === 2){
+				    		document.getElementById("catFact").innerHTML = "The cat's front paw has 5 toes, but the back paws have 4. Some cats are born with as many as 7 front toes and extra back toes (polydactl)";
+					}
+					else if (catnum === 3 ) {
+				        document.getElementById("catFact").innerHTML = "When a cat holds its tail high it means he is happy.";
+				  }
+					else if (catnum === 4 ) {
+								document.getElementById("catFact").innerHTML = "Cats are extremely sensitive to vibrations. Cats are said to detect earth quake tremors 10 or 15 minutes before humans can.";
+					}
+					else if (catnum === 5 ) {
+								document.getElementById("catFact").innerHTML = "A cat has two vocal chords, and can make over 100 sounds.";
+					}
+					else if (catnum === 6)  {
+								document.getElementById("catFact").innerHTML = "According to Hebrew legend, Noah prayed to God for help protecting all the food he stored on the ark from being eaten by rats. In reply, God made the lion sneeze, and out popped a cat.";
+					}
+					else if (catnum === 7)  {
+								document.getElementById("catFact").innerHTML = "Cats average 16 hours of sleep a day, more than any other mammal.";
+					}
+					else if (catnum === 8)  {
+								document.getElementById("catFact").innerHTML = "A cat sees about 6 times better than a human at night, and needs 1/6 the amount of light that a human does - it has a layer of extra reflecting cells which absorb light.";
+					}
+
+				}
+				</script>
+	<body>
+<img src="cat facts logo.png" alt="Cat Facts"/>
+		<input type="button" onClick="getFact()" value="Get Cat Fact!" />
+		<p>
+
+		</p>
+		<h1 id="catFact"></h1>
+		<footer>
+		    <div class="footer">
+					<a href="https://github.com/pieces029/CatFactsf">
+						Available here on GitHub </a>
+						  	Cat Facts are not verified. Take with a bucket of salt.
+							<a href="https://github.com/pieces029/CatFacts">
+							Forked from Cat Facts by Andrew Reid
+						</a>
+
+		    </div>
+		<footer>
+		</div>
+	</body>
+</html>
