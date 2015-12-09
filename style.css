@@ -6,17 +6,26 @@
 img {
     width: 30%;
     height: auto;
-		padding-top: 50px;
+		padding-top: 100px;
 }
 footer{
     bottom: 0;
     position: fixed;
     width: 100%;
 }
-
-.footer {
+h2
+{
+	background-color: #f2f2f2;
+}
+	.footer {
     margin: auto;
     width: 100%;
     text-align:center;
-    padding:10px;
+    padding-bottom: :10px;
+		background-color: white;
+	}
+body {
+	background-color: #f2f2f2;
+	background-image: url("minicat.png");
+	background-repeat: repeat-yx;
 }
